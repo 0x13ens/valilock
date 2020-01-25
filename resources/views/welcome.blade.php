@@ -62,9 +62,9 @@
                 <div id="navigation">
                     <!-- Navigation Menu-->
                     <ul class="navigation-menu">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Products</a></li>
                         <li class="has-submenu">
-                            <a href="javascript:void(0)">Landing</a><span class="menu-arrow"></span>
+                            <a href="javascript:void(0)">Developers</a><span class="menu-arrow"></span>
                             <ul class="submenu megamenu">
                                 <li>
                                     <ul>
@@ -102,7 +102,7 @@
                         </li>
 
                         <li class="has-submenu">
-                            <a href="javascript:void(0)">Pages</a><span class="menu-arrow"></span>
+                            <a href="javascript:void(0)">Company</a><span class="menu-arrow"></span>
                             <ul class="submenu">
                                 <li><a href="page-aboutus.html"> About Us</a></li>
                                 <li><a href="page-services.html">Services</a></li>
@@ -172,7 +172,7 @@
                             </ul>
                         </li>
                         <li class="has-submenu">
-                            <a href="javascript:void(0)">Docs</a><span class="menu-arrow"></span>
+                            <a href="javascript:void(0)">Pricing</a><span class="menu-arrow"></span>
                             <ul class="submenu">
                                 <li><a href="documentation.html">Documentation </a></li>
                                 <li><a href="changelog.html">Changelog </a></li>
