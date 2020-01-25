@@ -468,7 +468,7 @@
                 <div class="row">
                     <div class="col-md-6 col-12">
                         <div class="faq-container">
-                            <h4 class="question"><i class="mdi mdi-help-circle text-primary mr-2 h4"></i> How our <span class="text-primary">Valilock</span> work ?</h4>
+                            <h4 class="question"><i class="mdi mdi-help-circle text-primary mr-2 h4"></i> Hows our <span class="text-primary">Valilock</span> work ?</h4>
                             <p class="answer text-muted ml-lg-4 pl-lg-3 mb-0">Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts.</p>
                         </div>
                     </div><!--end col-->
