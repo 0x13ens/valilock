@@ -255,8 +255,8 @@
                 <div class="row justify-content-center">
                     <div class="col-12 text-center">
                         <div class="section-title mb-60">
-                            <h4 class="title mb-4">How It Work ?</h4>
-                            <p class="text-muted para-desc mb-0 mx-auto">Start working with <span class="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                            <h4 class="title mb-4">Hows It Work ?</h4>
+                            <p class="text-muted para-desc mb-0 mx-auto">Start working with <span class="text-primary font-weight-bold">Valilock</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                         </div>
                     </div><!--end col-->
                 </div><!--end row-->
@@ -269,7 +269,7 @@
                     <div class="col-lg-7 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
                         <div class="section-title ml-lg-5">
                             <h4 class="title mb-4">Change the way you build websites</h4>
-                            <p class="text-muted">You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
+                            <p class="text-muted">You can combine all the Valilock templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
                             <ul class="list-unstyled feature-list text-muted">
                                 <li><i class="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Digital Marketing Solutions for Tomorrow</li>
                                 <li><i class="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Our Talented & Experienced Marketing Agency</li>
@@ -285,8 +285,8 @@
                 <div class="row align-items-center">
                     <div class="col-lg-7 col-md-6 order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0">
                         <div class="section-title">
-                            <h4 class="title mb-4">Speed up your development <br> with <span class="text-primary">Landrick.</span></h4>
-                            <p class="text-muted">Using Landrick to build your site means never worrying about designing another page or cross browser compatibility. Our ever-growing library of components and pre-designed layouts will make your life easier.</p>
+                            <h4 class="title mb-4">Speed up your development <br> with <span class="text-primary">Valilock.</span></h4>
+                            <p class="text-muted">Using Valilock to build your site means never worrying about designing another page or cross browser compatibility. Our ever-growing library of components and pre-designed layouts will make your life easier.</p>
                             <ul class="list-unstyled feature-list text-muted">
                                 <li><i class="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Digital Marketing Solutions for Tomorrow</li>
                                 <li><i class="mdi mdi-checkbox-marked-circle text-success h4 mr-2"></i>Our Talented & Experienced Marketing Agency</li>
@@ -347,7 +347,7 @@
                     <div class="col-12 text-center">
                         <div class="section-title mb-60">
                             <h4 class="title mb-4">Our Happy Customers</h4>
-                            <p class="text-muted para-desc mx-auto mb-0">Start working with <span class="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                            <p class="text-muted para-desc mx-auto mb-0">Start working with <span class="text-primary font-weight-bold">Valilock</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                         </div>
                     </div><!--end col-->
                 </div><!--end row-->
@@ -404,7 +404,7 @@
                     <div class="col-lg-5 col-md-12 text-center text-lg-left">
                         <div class="section-title mb-60">
                             <h4 class="title mb-4">Our Comfortable Rates</h4>
-                            <p class="text-muted para-desc mx-auto mb-0">Start working with <span class="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                            <p class="text-muted para-desc mx-auto mb-0">Start working with <span class="text-primary font-weight-bold">Valilock</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                             <a href="https://1.envato.market/4n73n" target="_blank" class="btn btn-primary mt-4">Buy Now <span class="badge badge-danger rounded ml-2">v1.6</span></a>
                         </div>
                     </div><!--end col-->
@@ -468,7 +468,7 @@
                 <div class="row">
                     <div class="col-md-6 col-12">
                         <div class="faq-container">
-                            <h4 class="question"><i class="mdi mdi-help-circle text-primary mr-2 h4"></i> How our <span class="text-primary">Landrick</span> work ?</h4>
+                            <h4 class="question"><i class="mdi mdi-help-circle text-primary mr-2 h4"></i> How our <span class="text-primary">Valilock</span> work ?</h4>
                             <p class="answer text-muted ml-lg-4 pl-lg-3 mb-0">Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts.</p>
                         </div>
                     </div><!--end col-->
@@ -489,7 +489,7 @@
 
                     <div class="col-md-6 col-12 mt-4 pt-2">
                         <div class="faq-container">
-                            <h4 class="question"><i class="mdi mdi-help-circle text-primary mr-2 h4"></i> Is <span class="text-primary">Landrick</span> safer to use with my account ?</h4>
+                            <h4 class="question"><i class="mdi mdi-help-circle text-primary mr-2 h4"></i> Is <span class="text-primary">Valilock</span> safer to use with my account ?</h4>
                             <p class="answer text-muted ml-lg-4 pl-lg-3 mb-0">The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century. Lorem Ipsum is composed in a pseudo-Latin language which more or less corresponds to 'proper' Latin.</p>
                         </div>
                     </div><!--end col-->
@@ -499,7 +499,7 @@
                     <div class="col-12 text-center">
                         <div class="section-title">
                             <h4 class="title mb-4">Have Question ? Get in touch!</h4>
-                            <p class="text-muted para-desc mx-auto">Start working with <span class="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                            <p class="text-muted para-desc mx-auto">Start working with <span class="text-primary font-weight-bold">Valilock</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                             <a href="page-contact-two.html" class="btn btn-primary mt-4"><i class="mdi mdi-phone"></i> Contact us</a>
                         </div>
                     </div><!--end col-->
@@ -520,8 +520,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
-                        <a class="logo-footer" href="#">Landrick<span class="text-primary">.</span></a>
-                        <p class="mt-4">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                        <a class="logo-footer" href="#">Valilock<span class="text-primary">.</span></a>
+                        <p class="mt-4">Start working with Valilock that can provide everything you need to generate awareness, drive traffic, connect.</p>
                         <ul class="list-unstyled social-icon social mb-0 mt-4">
                             <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="mdi mdi-facebook" title="Facebook"></i></a></li>
                             <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="mdi mdi-instagram" title="Instagram"></i></a></li>
@@ -581,7 +581,7 @@
                 <div class="row align-items-center">
                     <div class="col-sm-6">
                         <div class="text-sm-left">
-                            <p class="mb-0">© 2019-20 Landrick. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="http://www.shreethemes.in/" target="_blank" class="text-success">Shreethemes</a>.</p>
+                            <p class="mb-0">© 2019-20 Valilock. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="http://www.shreethemes.in/" target="_blank" class="text-success">Shreethemes</a>.</p>
                         </div>
                     </div>
 
