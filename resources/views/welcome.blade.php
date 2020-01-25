@@ -180,9 +180,10 @@
                                 <li><a href="widget.html">Widget <span class="badge badge-success rounded"> Added </span></a></li>
                             </ul>
                         </li>
+                        <li><a href="index.html">Support</a></li>
                     </ul><!--end navigation menu-->
                     <div class="buy-menu-btn d-none">
-                        <a href="https://1.envato.market/4n73n" target="_blank" class="btn btn-primary">Buy Now</a>
+                        <a href="https://1.envato.market/4n73n" target="_blank" class="btn btn-primary">Sign In</a>
                     </div><!--end login button-->
                 </div><!--end navigation-->
             </div><!--end container-->
