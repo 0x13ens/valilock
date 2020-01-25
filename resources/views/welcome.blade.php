@@ -65,7 +65,7 @@
                         <li class="has-submenu">
                             <a href="javascript:void(0)">Products</a><span class="menu-arrow"></span>
                             <ul class="submenu">
-                                <li><a href="documentation.html">Documentation </a></li>
+                                <li><a href="documentation.html">Valilock </a><p>Full authentication system</p></li>
                                 <li><a href="changelog.html">Changelog </a></li>
                                 <li><a href="components.html">Components</a></li>
                                 <li><a href="widget.html">Widget <span class="badge badge-success rounded"> Added </span></a></li>
