@@ -199,7 +199,7 @@
                             <div class="col-lg-7 col-md-7">
                                 <div class="title-heading mt-4">
                                     <h1 class="heading mb-3">Our Creativity Is Your <span class="text-primary">Success</span> </h1>
-                                    <p class="para-desc text-muted">Valilock is the best software platform for managing your user’s passwords. We plan to disrupt the password industry by reimagining security.</p>
+                                    <p class="para-desc text-muted">Valilock is the best software platform for managing your user’s authentication. We plan to disrupt the password industry by reimagining security.</p>
                                     <div class="mt-4 pt-2">
                                         <a href="page-contact-one.html" class="btn btn-primary mt-2 mr-2"><i class="mdi mdi-email"></i> Get Started</a>
                                         <a href="documentation.html" class="btn btn-outline-primary mt-2"><i class="mdi mdi-book-outline"></i> Documentation</a>
