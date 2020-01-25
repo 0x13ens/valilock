@@ -62,7 +62,15 @@
                 <div id="navigation">
                     <!-- Navigation Menu-->
                     <ul class="navigation-menu">
-                        <li><a href="index.html">Products</a></li>
+                        <li class="has-submenu">
+                            <a href="javascript:void(0)">Products</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="documentation.html">Documentation </a></li>
+                                <li><a href="changelog.html">Changelog </a></li>
+                                <li><a href="components.html">Components</a></li>
+                                <li><a href="widget.html">Widget <span class="badge badge-success rounded"> Added </span></a></li>
+                            </ul>
+                        </li>
                         <li class="has-submenu">
                             <a href="javascript:void(0)">Developers</a><span class="menu-arrow"></span>
                             <ul class="submenu megamenu">
@@ -199,7 +207,7 @@
                             <div class="col-lg-7 col-md-7">
                                 <div class="title-heading mt-4">
                                     <h1 class="heading mb-3">Our Creativity Is Your <span class="text-primary">Success</span> </h1>
-                                    <p class="para-desc text-muted">Valilock is the best software platform for managing your user’s authentication. We plan to disrupt the password industry by reimagining security.</p>
+                                    <p class="para-desc text-muted">Valilock is the best software platform for managing your user’s authentication. We plan to disrupt the authentication industry by reimagining security.</p>
                                     <div class="mt-4 pt-2">
                                         <a href="page-contact-one.html" class="btn btn-primary mt-2 mr-2"><i class="mdi mdi-email"></i> Get Started</a>
                                         <a href="documentation.html" class="btn btn-outline-primary mt-2"><i class="mdi mdi-book-outline"></i> Documentation</a>
