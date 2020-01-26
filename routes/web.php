@@ -11,6 +11,8 @@
 |
 */
 
+Route::get('test', 'TestController@test');
+
 Route::get('/login', function() {
     return view('auth/login');
 });
@@ -22,3 +24,7 @@ Route::get('/register', function() {
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

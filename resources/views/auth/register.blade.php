@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8" />
-        <title>Landrick - Saas & Software Landing Page Template</title>
+        <title>Valilock - Saas & Software Landing Page Template</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Premium Bootstrap 4 Landing Page Template" />
         <meta name="keywords" content="bootstrap 4, premium, marketing, multipurpose" />
@@ -51,41 +51,61 @@
                                     <div class="text-center">
                                         <h4 class="mb-4">Signup</h4>
                                     </div>
-                                    <form class="login-form">
+
+                                    <form class="login-form" method="POST" action="{{ route('register') }}">
+                                            @csrf
+
                                         <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group position-relative">
-                                                    <label>First name <span class="text-danger">*</span></label>
-                                                    <i class="mdi mdi-account ml-3 icons"></i>
-                                                    <input type="text" class="form-control pl-5" placeholder="First Name" name="s" required="">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group position-relative">
-                                                    <label>Last name <span class="text-danger">*</span></label>
-                                                    <i class="mdi mdi-account ml-3 icons"></i>
-                                                    <input type="text" class="form-control pl-5" placeholder="Last Name" name="s" required="">
-                                                </div>
-                                            </div>
                                             <div class="col-md-12">
                                                 <div class="form-group position-relative">
-                                                    <label>Your Email <span class="text-danger">*</span></label>
+                                                    <label for="name">{{ __('Name') }}<span class="text-danger">*</span></label>
                                                     <i class="mdi mdi-account ml-3 icons"></i>
-                                                    <input type="email" class="form-control pl-5" placeholder="Email" name="email" required="">
+                                                    <input id="name" type="text" class="form-control pl-5 @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" placeholder="John Dow" required autocomplete="name" autofocus>
+
+                                                        @error('name')
+                                                            <span class="invalid-feedback" role="alert">
+                                                                <strong>{{ $message }}</strong>
+                                                            </span>
+                                                        @enderror
+
                                                 </div>
                                             </div>
+
                                             <div class="col-md-12">
                                                 <div class="form-group position-relative">
-                                                    <label>Password <span class="text-danger">*</span></label>
+                                                    <label for="email"> {{ __('E-Mail Address') }} <span class="text-danger">*</span></label>
+                                                    <i class="mdi mdi-account ml-3 icons"></i>
+                                                    <input id="email" type="email" class="form-control pl-5 @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" placeholder="Email" required autocomplete="email">
+
+                                                        @error('email')
+                                                            <span class="invalid-feedback" role="alert">
+                                                                <strong>{{ $message }}</strong>
+                                                            </span>
+                                                        @enderror
+
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-12">
+                                                <div class="form-group position-relative">
+                                                    <label for="password"> {{ __('Password') }} <span class="text-danger">*</span></label>
                                                     <i class="mdi mdi-key ml-3 icons"></i>
-                                                    <input type="password" class="form-control pl-5" placeholder="Password" required="">
+                                                    <input id="password" type="password" class="form-control pl-5 @error('password') is-invalid @enderror" name="password" placeholder="Password" required autocomplete="new-password">
+
+                                                    @error('password')
+                                                        <span class="invalid-feedback" role="alert">
+                                                            <strong>{{ $message }}</strong>
+                                                        </span>
+                                                    @enderror
+
                                                 </div>
                                             </div>
+
                                             <div class="col-md-12">
                                                 <div class="form-group position-relative">
-                                                    <label>Confirm Password <span class="text-danger">*</span></label>
+                                                    <label for="password-confirm">{{ __('Confirm Password') }}<span class="text-danger">*</span></label>
                                                     <i class="mdi mdi-key ml-3 icons"></i>
-                                                    <input type="password" class="form-control pl-5" placeholder="Confirm Password" required="">
+                                                    <input id="password-confirm" type="password" class="form-control pl-5" name="password_confirmation" placeholder="Confirm Password" required autocomplete="new-password">
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
@@ -97,7 +117,9 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
-                                                <button class="btn btn-primary w-100">Register</button>
+                                                <button type="submit" class="btn btn-primary w-100">
+                                                    {{ __('Register') }}
+                                                </button>
                                             </div>
                                             <div class="col-lg-12 mt-4 text-center">
                                                 <h6>Or Signup With</h6>
@@ -108,7 +130,7 @@
                                                 </ul><!--end icon-->
                                             </div>
                                             <div class="mx-auto">
-                                                <p class="mb-0 mt-3"><small class="text-dark mr-2">Already have an account ?</small> <a href="page-login.html" class="text-dark font-weight-bold">Sign in</a></p>
+                                                <p class="mb-0 mt-3"><small class="text-dark mr-2">Already have an account ?</small> <a href="{{ __('login') }}" class="text-dark font-weight-bold">Sign in</a></p>
                                             </div>
                                         </div>
                                     </form>
@@ -130,3 +152,4 @@
         <script src="js/app.js"></script>
     </body>
 </html>
+
