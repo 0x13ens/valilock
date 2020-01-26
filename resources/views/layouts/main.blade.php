@@ -11,14 +11,14 @@
         <!-- favicon -->
         <link rel="shortcut icon" href="images/favicon.ico">
         <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
         <!-- Icons -->
-        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('css/materialdesignicons.min.css') }}" rel="stylesheet" type="text/css" />
         <!-- Slider -->
-        <link rel="stylesheet" href="css/owl.carousel.min.css"/>
-        <link rel="stylesheet" href="css/owl.theme.default.min.css"/>
+        <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}"/>
+        <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css')}}"/>
         <!-- Main css -->
-        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" />
 
     </head>
 
@@ -65,11 +65,11 @@
                         <li class="has-submenu">
                             <a href="javascript:void(0)">Plugins</a><span class="menu-arrow"></span>
                             <ul class="submenu">
-                                <li><a href="documentation.html">Wordpress <span class="badge badge-danger rounded"> v1.0 </span></a></li>
-                                <li><a href="changelog.html">Shopify <span class="badge badge-danger rounded"> v1.0 </span></a></li>
-                                <li><a href="components.html">Prestashop <span class="badge badge-danger rounded"> v1.0 </span></a></li>
-                                <li><a href="widget.html">PhpBB <span class="badge badge-danger rounded"> v1.0 </span></a></li>
-                                <li><a href="widget.html">Mybb <span class="badge badge-success rounded"> Added </span></a></li>
+                                <li><a href="/plugins/wordpress">Wordpress <span class="badge badge-danger rounded"> v1.0 </span></a></li>
+                                <li><a href="/plugins/shopify">Shopify <span class="badge badge-danger rounded"> v1.0 </span></a></li>
+                                <li><a href="/plugins/prestashop">Prestashop <span class="badge badge-danger rounded"> v1.0 </span></a></li>
+                                <li><a href="/plugins/phpbb3">PhpBB3 <span class="badge badge-danger rounded"> v1.0 </span></a></li>
+                                <li><a href="/plugins/mybb">Mybb <span class="badge badge-success rounded"> Added </span></a></li>
                             </ul>
                         </li>
                         <li class="has-submenu">
@@ -77,34 +77,18 @@
                             <ul class="submenu megamenu">
                                 <li>
                                     <ul>
-                                        <li><a href="index-saas.html">Saas</a></li>
-                                        <li><a href="index-agency.html">Agency</a></li>
-                                        <li><a href="index-apps.html">Application</a></li>
-                                        <li><a href="index-studio.html">Studio</a></li>
-                                        <li><a href="index-business.html">Business</a></li>
-                                        <li><a href="index-modern-business.html">Modern Business</a></li>
-                                        <li><a href="index-hotel.html">Hotel</a></li>
-                                        <li><a href="index-marketing.html">Marketing</a></li>
-                                        <li><a href="index-enterprise.html">Enterprise </a></li>
-                                        <li><a href="index-coworking.html">Coworking</a></li>
-                                        <li><a href="index-cloud-hosting.html">Cloud Hosting</a></li>
-                                        <li><a href="index-event.html">Event</a></li>
+                                        <li><a>Get Started </a></li>
+                                        <li><a href="/docs">Documentation</a></li>
+                                        <li><a href="index-agency.html">Prebuilt Plugins</a></li>
+                                        <li><a href="index-apps.html">Libaries and SDK</a></li>
+                                        <li><a href="index-studio.html">Code Samples</a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <ul>
-                                        <li><a href="index-course.html">Course </a></li>
-                                        <li><a href="index-personal.html">Personal </a></li>
-                                        <li><a href="index-single-product.html">Product </a></li>
-                                        <li><a href="index-portfolio.html">Portfolio </a></li>
-                                        <li><a href="index-services.html">Service </a></li>
-                                        <li><a href="index-payments.html">Payments </a></li>
-                                        <li><a href="index-crypto.html">Cryptocurrency </a></li>
-                                        <li><a href="index-software.html">Software </a></li>
-                                        <li><a href="index-job.html">Job <span class="badge badge-danger rounded"> v1.6 </span> </a></li>
-                                        <li><a href="index-customer.html">Customer <span class="badge badge-danger rounded"> v1.6 </span> </a></li>
-                                        <li><a href="index-onepage.html">Saas <span class="badge badge-warning rounded ml-2">Onepage</span></a></li>
-                                        <li><a href="index-rtl.html">RTL Version <span class="badge badge-primary rounded ml-2">RTL</span></a></li>
+                                        <li><a>Guides </a></li>
+                                        <li><a href="index-personal.html">Connecting </a></li>
+                                        <li><a href="index-single-product.html">Manage Users </a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -113,10 +97,10 @@
                         <li class="has-submenu">
                             <a href="javascript:void(0)">Company</a><span class="menu-arrow"></span>
                             <ul class="submenu">
-                                <li><a href="page-aboutus.html"> About Us</a></li>
-                                <li><a href="page-services.html">Services</a></li>
-                                <li><a href="page-pricing.html">Pricing</a></li>
-                                <li><a href="page-team.html"> Team</a></li>
+                                <li><a href="/about"> About Valilock</a></li>
+                                <li><a href="page-services.html">Customers</a></li>
+                                <li><a href="page-pricing.html">Partners</a></li>
+                                <li><a href="page-team.html"> Jobs</a></li>
                                 <li class="has-submenu"><a href="javascript:void(0)"> Account <span class="badge badge-danger rounded"> v1.6 </span></a><span class="submenu-arrow"></span>
                                     <ul class="submenu">
                                         <li><a href="page-profile.html">Profile <span class="badge badge-primary rounded">New</span></a></li>
@@ -180,15 +164,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="has-submenu">
-                            <a href="javascript:void(0)">Pricing</a><span class="menu-arrow"></span>
-                            <ul class="submenu">
-                                <li><a href="documentation.html">Documentation </a></li>
-                                <li><a href="changelog.html">Changelog </a></li>
-                                <li><a href="components.html">Components</a></li>
-                                <li><a href="widget.html">Widget <span class="badge badge-success rounded"> Added </span></a></li>
-                            </ul>
-                        </li>
+                        <li><a href="/pricing">Pricing</a></li>
                         <li><a href="index.html">Support</a></li>
                     </ul><!--end navigation menu-->
                     <div class="buy-menu-btn d-none">
@@ -292,14 +268,15 @@
         <!-- Back to top -->
 
         <!-- javascript -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/jquery.easing.min.js"></script>
-        <script src="js/scrollspy.min.js"></script>
+
+        <script src="{{ asset('js/jquery.min.js') }}"></script>
+        <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
+        <script src="{{ asset("js/jquery.easing.min.js") }}"></script>
+        <script src="{{ asset("js/scrollspy.min.js") }}"></script>
         <!-- SLIDER -->
-        <script src="js/owl.carousel.min.js "></script>
-        <script src="js/owl.init.js "></script>
+        <script src="{{ asset("js/owl.carousel.min.js") }}"></script>
+        <script src="{{ asset("js/owl.init.js") }}"></script>
         <!-- Main Js -->
-        <script src="js/app.js"></script>
+        <script src="{{ asset("js/app.js") }}"></script>
     </body>
 </html>

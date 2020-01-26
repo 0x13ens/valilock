@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -10,8 +12,19 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('/', 'PageController@welcome');
+Route::get('about', 'PageController@about');
 Route::get('test', 'TestController@test');
+Route::get('pricing', 'PageController@pricing');
+
+// Plugin Pages
+Route::prefix('plugins')->group(function () {
+    Route::get('shopify', 'PageController@shopify');
+    Route::get('wordpress', 'PageController@wordpress');
+    Route::get('mybb', 'PageController@mybb');
+    Route::get('phpbb', 'PageController@phpbb');
+    Route::get('prestashop', 'PageController@prestashop');
+});
 
 Route::get('/login', function() {
     return view('auth/login');
@@ -19,10 +32,6 @@ Route::get('/login', function() {
 
 Route::get('/register', function() {
     return view('auth/register');
-});
-
-Route::get('/', function () {
-    return view('welcome');
 });
 
 Auth::routes();

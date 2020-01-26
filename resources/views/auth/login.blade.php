@@ -85,7 +85,12 @@
                                             </div>
 
                                             <div class="col-lg-12">
-                                                <p class="float-right forgot-pass"><a href="page-recovery-password.html" class="text-dark font-weight-bold">Forgot password ?</a></p>
+                                                <p class="float-right forgot-pass"><a class="text-dark font-weight-bold">
+                                                    @if (Route::has('password.request'))
+                                                    <a href="{{ route('password.request') }}">
+                                                        {{ __('Forgot Your Password?') }}
+                                                    </a>
+                                                    @endif</p>
                                                 <div class="form-group">
                                                     <div class="custom-control custom-checkbox">
                                                         <input class="custom-control-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
