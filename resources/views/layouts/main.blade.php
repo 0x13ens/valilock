@@ -102,23 +102,15 @@
                             <a href="javascript:void(0)">Company</a><span class="menu-arrow"></span>
                             <ul class="submenu">
                                 <li><a href="/about"> About Valilock</a></li>
-                                <li><a href="page-services.html">Customers</a></li>
-                                <li><a href="page-pricing.html">Partners</a></li>
-                                <li><a href="page-team.html"> Jobs</a></li>
-                                <li class="has-submenu"><a href="javascript:void(0)"> Account <span class="badge badge-danger rounded"> v1.6 </span></a><span class="submenu-arrow"></span>
-                                    <ul class="submenu">
-                                        <li><a href="page-profile.html">Profile <span class="badge badge-primary rounded">New</span></a></li>
-                                        <li><a href="page-profile-edit.html">Account Setting <span class="badge badge-primary rounded">New</span></a></li>
-                                        <li><a href="page-invoice.html">Invoice <span class="badge badge-primary rounded">New</span></a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="/">Customers</a></li>
+                                <li><a href="/">Partners</a></li>
                                 <li class="has-submenu"><a href="javascript:void(0)"> Careers <span class="badge badge-success rounded"> Added </span></a><span class="submenu-arrow"></span>
                                     <ul class="submenu">
-                                        <li><a href="page-jobs.html">Jobs</a></li>
-                                        <li><a href="page-job-detail.html">Job Detail</a></li>
-                                        <li><a href="page-job-apply.html">Job Apply</a></li>
-                                        <li><a href="page-job-company.html">Company <span class="badge badge-success rounded"> New </span></a></li>
-                                        <li><a href="page-job-candidate.html">Candidate <span class="badge badge-success rounded"> New </span></a></li>
+                                        <li><a href="/">Jobs</a></li>
+                                        <li><a href="/">Job Detail</a></li>
+                                        <li><a href="/">Job Apply</a></li>
+                                        <li><a href="/">Company <span class="badge badge-success rounded"> New </span></a></li>
+                                        <li><a href="/">Candidate <span class="badge badge-success rounded"> New </span></a></li>
                                     </ul>
                                 </li>
                                 <li class="has-submenu"><a href="javascript:void(0)"> Blog</a><span class="submenu-arrow"></span>
@@ -130,7 +122,7 @@
                             </ul>
                         </li>
                         <li><a href="/pricing">Pricing</a></li>
-                        <li><a href="index.html">Support</a></li>
+                        <li><a href="/support">Support</a></li>
                     </ul><!--end navigation menu-->
                     <div class="buy-menu-btn d-none">
                         <a href="https://1.envato.market/4n73n" target="_blank" class="btn btn-primary">Sign In</a>

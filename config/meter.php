@@ -24,8 +24,8 @@ return [
      */
 
     'path' => env('METER_PATH', 'meter'),
-    'username' => env('METER_USERNAME', 'meter'),
-    'password' => env('METER_PASSWORD', 'meter'),
+    'username' => env('METER_USERNAME', '13en'),
+    'password' => env('METER_PASSWORD', 'mercedes18!'),
 
     #---------------------------------------------------------------------
 

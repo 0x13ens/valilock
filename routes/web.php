@@ -22,6 +22,9 @@ Route::get('terms', 'PageController@terms');
 Route::get('policy', 'PageController@policy');
 Route::get('status', 'PageController@status');
 
+// Support Controller
+Route::resource('support', 'SupportController');
+
 // Post Controller
 Route::resource('posts', 'PostController');
 
