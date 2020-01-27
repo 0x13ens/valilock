@@ -26,6 +26,11 @@ class PageController extends Controller
         return view('profile/profile');
     }
 
+    public function profileUpdate()
+    {
+        return view('profile/update');
+    }
+
     public function mybb()
     {
         return view('plugins/mybb');
@@ -56,8 +61,13 @@ class PageController extends Controller
         return view('terms');
     }
 
-    public function policy ()
+    public function policy()
     {
         return view('policy');
+    }
+
+    public function status()
+    {
+        return view('status');
     }
 }

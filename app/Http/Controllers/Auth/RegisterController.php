@@ -29,7 +29,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = RouteServiceProvider::HOME;
+    protected $redirectTo = '/profile';
 
     /**
      * Create a new controller instance.
@@ -69,5 +69,16 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);
+    }
+
+    protected function checkForTags( $data)
+    {
+        //We must take the password string and check dynamic tagging
+        //for instance if the password contains something dynamic we must
+        //remember this before hashing the password
+
+        //if we make hashes different lengths we can tell which tags
+        //are in use by the hash length
+        //on creation this could be randomized and remembered after
     }
 }

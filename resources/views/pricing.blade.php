@@ -44,7 +44,7 @@
                 <div class="col-12 text-center">
                     <div class="section-title mb-4 pb-2">
                         <h4 class="title mb-4">Pricing #1</h4>
-                        <p class="text-muted para-desc mb-0 mx-auto">Start working with <span class="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                        <p class="text-muted para-desc mb-0 mx-auto">Start working with <span class="text-primary font-weight-bold"></span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                     </div>
                 </div><!--end col-->
             </div><!--end row-->
@@ -115,7 +115,7 @@
                 <div class="col-12 text-center">
                     <div class="section-title mb-4 pb-2">
                         <h4 class="title mb-4">Pricing #2</h4>
-                        <p class="text-muted para-desc mb-0 mx-auto">Start working with <span class="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                        <p class="text-muted para-desc mb-0 mx-auto">Start working with <span class="text-primary font-weight-bold">Valilock.</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                     </div>
                 </div><!--end col-->
             </div><!--end row-->
@@ -301,7 +301,7 @@
                 <div class="col-12 text-center">
                     <div class="section-title mb-60">
                         <h4 class="title mb-4">Client Reviews</h4>
-                        <p class="text-muted para-desc mx-auto mb-0">Start working with <span class="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                        <p class="text-muted para-desc mx-auto mb-0">Start working with <span class="text-primary font-weight-bold">Valilock.</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                     </div>
                 </div><!--end col-->
             </div><!--end row-->
@@ -411,7 +411,7 @@
             <div class="row">
                 <div class="col-md-6 col-12">
                     <div class="faq-container">
-                        <h4 class="question"><i class="mdi mdi-help-circle text-primary mr-2 h4"></i> How our <span class="text-primary">Landrick</span> work ?</h4>
+                        <h4 class="question"><i class="mdi mdi-help-circle text-primary mr-2 h4"></i> How our <span class="text-primary">Valilock.</span> work ?</h4>
                         <p class="answer text-muted ml-lg-4 pl-lg-3 mb-0">Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts.</p>
                     </div>
                 </div><!--end col-->
@@ -432,7 +432,7 @@
 
                 <div class="col-md-6 col-12 mt-4 pt-2">
                     <div class="faq-container">
-                        <h4 class="question"><i class="mdi mdi-help-circle text-primary mr-2 h4"></i> Is <span class="text-primary">Landrick</span> safer to use with my account ?</h4>
+                        <h4 class="question"><i class="mdi mdi-help-circle text-primary mr-2 h4"></i> Is <span class="text-primary">Valilock.</span> safer to use with my account ?</h4>
                         <p class="answer text-muted ml-lg-4 pl-lg-3 mb-0">The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century. Lorem Ipsum is composed in a pseudo-Latin language which more or less corresponds to 'proper' Latin.</p>
                     </div>
                 </div><!--end col-->
@@ -442,7 +442,7 @@
                 <div class="col-12 text-center">
                     <div class="section-title">
                         <h4 class="title mb-4">Have Question ? Get in touch!</h4>
-                        <p class="text-muted para-desc mx-auto">Start working with <span class="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                        <p class="text-muted para-desc mx-auto">Start working with <span class="text-primary font-weight-bold">Valilock.</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                         <a href="page-contact-two.html" class="btn btn-primary mt-4">Contact us <i class="mdi mdi-arrow-right"></i></a>
                     </div>
                 </div><!--end col-->

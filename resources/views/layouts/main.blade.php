@@ -42,7 +42,11 @@
                     <a class="logo" href="/">Valilock<span class="text-primary">.</span></a>
                 </div>
                 <div class="buy-button">
-                    <a href="/register" target="_blank" class="btn btn-primary">Sign In</a>
+                    @if (Auth::check())
+                    <a href="/profile" class="btn btn-primary">Profile</a>
+                    @else
+                    <a href="/register" class="btn btn-primary">Sign In</a>
+                    @endif
                 </div><!--end login button-->
                 <!-- End Logo container-->
                 <div class="menu-extras">
@@ -119,47 +123,8 @@
                                 </li>
                                 <li class="has-submenu"><a href="javascript:void(0)"> Blog</a><span class="submenu-arrow"></span>
                                     <ul class="submenu">
-                                        <li><a href="page-blog.html">Blog Grid</a></li>
-                                        <li><a href="page-blog-sidebar.html">Blog with Sidebar</a></li>
-                                        <li><a href="page-blog-detail.html">Blog Detail</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-submenu"><a href="javascript:void(0)"> Works</a><span class="submenu-arrow"></span>
-                                    <ul class="submenu">
-                                        <li><a href="page-work.html">Works Grid</a></li>
-                                        <li><a href="page-work-detail.html">Work Detail</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-submenu"><a href="javascript:void(0)"> User </a><span class="submenu-arrow"></span>
-                                    <ul class="submenu">
-                                        <li><a href="page-login.html">Login</a></li>
-                                        <li><a href="page-signup.html">Signup</a></li>
-                                        <li><a href="page-recovery-password.html">Recovery Password</a></li>
-                                        <li><a href="page-cover-login.html">Login 2</a></li>
-                                        <li><a href="page-cover-signup.html">Signup 2</a></li>
-                                        <li><a href="page-cover-re-password.html">Recovery Password 2</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-submenu"><a href="javascript:void(0)"> Utility </a><span class="submenu-arrow"></span>
-                                    <ul class="submenu">
-                                        <li><a href="page-terms.html">Terms of Services</a></li>
-                                        <li><a href="page-privacy.html">Privacy Policy</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-submenu"><a href="javascript:void(0)"> Special </a><span class="submenu-arrow"></span>
-                                    <ul class="submenu">
-                                        <li><a href="page-comingsoon.html">Coming Soon</a></li>
-                                        <li><a href="page-comingsoon2.html">Coming Soon Two </a></li>
-                                        <li><a href="page-maintenance.html">Maintenance</a></li>
-                                        <li><a href="page-error.html">Error</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-submenu"><a href="javascript:void(0)"> Contact </a><span class="submenu-arrow"></span>
-                                    <ul class="submenu">
-                                        <li><a href="page-contact-detail.html">Contact Detail </a></li>
-                                        <li><a href="page-contact-one.html">Contact One </a></li>
-                                        <li><a href="page-contact-two.html">Contact Two </a></li>
-                                        <li><a href="page-contact-three.html">Contact Three </a></li>
+                                        <li><a href="/posts/latest">Latest Post</a></li>
+                                        <li><a href="/posts">All Post</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -209,7 +174,7 @@
                             <li><a href="/policy" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Privacy Policy</a></li>
                             <li><a href="/docs" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Documentation</a></li>
                             <li><a href="changelog.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Changelog</a></li>
-                            <li><a href="components.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Components</a></li>
+                            <li><a href="/status" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> API Status</a></li>
                         </ul>
                     </div><!--end col-->
 

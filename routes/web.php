@@ -17,8 +17,16 @@ Route::get('about', 'PageController@about');
 Route::get('test', 'TestController@test');
 Route::get('pricing', 'PageController@pricing');
 Route::get('profile', 'PageController@profile');
+Route::get('profile/update', 'PageController@profileupdate');
 Route::get('terms', 'PageController@terms');
 Route::get('policy', 'PageController@policy');
+Route::get('status', 'PageController@status');
+
+// Post Controller
+Route::resource('posts', 'PostController');
+
+// Profile Pages
+Route::get('profile', 'ProfileController@show');
 
 // Plugin Pages
 Route::prefix('plugins')->group(function () {
