@@ -21,6 +21,11 @@ class PageController extends Controller
         return view('pricing');
     }
 
+    public function profile()
+    {
+        return view('profile');
+    }
+
     public function mybb()
     {
         return view('plugins/mybb');
@@ -44,5 +49,15 @@ class PageController extends Controller
     public function wordpress()
     {
         return view('plugins/wordpress');
+    }
+
+    public function terms()
+    {
+        return view('terms');
+    }
+
+    public function policy ()
+    {
+        return view('policy');
     }
 }

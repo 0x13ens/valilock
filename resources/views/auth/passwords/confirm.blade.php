@@ -11,11 +11,11 @@
         <!-- favicon -->
         <link rel="shortcut icon" href="images/favicon.ico">
         <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <!-- Icons -->
-        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+        <link href="/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
         <!-- Main css -->
-        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="/css/style.css" rel="stylesheet" type="text/css" />
 
     </head>
 
@@ -68,19 +68,19 @@
                         </div> <!-- end about detail -->
                     </div> <!-- end col -->
 
-                    <div class="col-lg-8 offset-lg-4 padding-less img order-1" style="background-image:url('images/user/03.jpg')" data-jarallax='{"speed": 0.5}'></div><!-- end col -->
+                    <div class="col-lg-8 offset-lg-4 padding-less img order-1" style="background-image:url('/images/user/03.jpg')" data-jarallax='{"speed": 0.5}'></div><!-- end col -->
                 </div><!--end row-->
             </div><!--end container fluid-->
         </section><!--end section-->
         <!-- Hero End -->
 
         <!-- javascript -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/jquery.easing.min.js"></script>
-        <script src="js/scrollspy.min.js"></script>
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/bootstrap.bundle.min.js"></script>
+        <script src="/js/jquery.easing.min.js"></script>
+        <script src="/js/scrollspy.min.js"></script>
         <!-- Main Js -->
-        <script src="js/app.js"></script>
+        <script src="/js/app.js"></script>
     </body>
 </html>
 

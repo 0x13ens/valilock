@@ -9,7 +9,7 @@
         <meta name="keywords" content="Valilock" />
         <meta content="Valilock" name="author" />
         <!-- favicon -->
-        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}">
         <!-- Bootstrap -->
         <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
         <!-- Icons -->
@@ -194,23 +194,20 @@
                     <div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
                         <h4 class="text-light footer-head">Company</h4>
                         <ul class="list-unstyled footer-list mt-4">
-                            <li><a href="page-aboutus.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> About us</a></li>
-                            <li><a href="page-services.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Services</a></li>
-                            <li><a href="page-team.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Team</a></li>
-                            <li><a href="page-pricing.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Pricing</a></li>
-                            <li><a href="page-work.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Project</a></li>
-                            <li><a href="page-jobs.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Careers</a></li>
-                            <li><a href="page-blog.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Blog</a></li>
-                            <li><a href="page-cover-login.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Login</a></li>
+                            <li><a href="/about" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> About us</a></li>
+                            <li><a href="/pricing" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Pricing</a></li>
+                            <li><a href="/jobs" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Careers</a></li>
+                            <li><a href="/blog" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Blog</a></li>
+                            <li><a href="/login" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Login</a></li>
                         </ul>
                     </div><!--end col-->
 
                     <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
                         <h4 class="text-light footer-head">Usefull Links</h4>
                         <ul class="list-unstyled footer-list mt-4">
-                            <li><a href="page-terms.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Terms of Services</a></li>
-                            <li><a href="page-privacy.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Privacy Policy</a></li>
-                            <li><a href="documentation.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Documentation</a></li>
+                            <li><a href="/terms" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Terms of Services</a></li>
+                            <li><a href="/policy" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Privacy Policy</a></li>
+                            <li><a href="/docs" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Documentation</a></li>
                             <li><a href="changelog.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Changelog</a></li>
                             <li><a href="components.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Components</a></li>
                         </ul>
@@ -243,7 +240,7 @@
                 <div class="row align-items-center">
                     <div class="col-sm-6">
                         <div class="text-sm-left">
-                            <p class="mb-0">© 2019-20 Valilock.</p>
+                            <p class="mb-0">© 2019-{{ now()->year }} Valilock.</p>
                         </div>
                     </div>
 

@@ -16,6 +16,9 @@ Route::get('/', 'PageController@welcome');
 Route::get('about', 'PageController@about');
 Route::get('test', 'TestController@test');
 Route::get('pricing', 'PageController@pricing');
+Route::get('profile', 'PageController@profile');
+Route::get('terms', 'PageController@terms');
+Route::get('policy', 'PageController@policy');
 
 // Plugin Pages
 Route::prefix('plugins')->group(function () {
