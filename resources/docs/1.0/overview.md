@@ -7,6 +7,8 @@
 <a name="section-1"></a>
 ## Development quickstart
 
+{Date: day:month:year:century } : {Time: hour:minute} : {Age : year } : { DateText : day } 
+
 Get up and running with our client libraries and start developing your Valilock integration.
 
 Integrating Valilock into your app or website can begin as soon as you create a Valilock account, requiring only three steps:

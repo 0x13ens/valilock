@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8" />
-        <title>Valilock - Saas & Software Landing Page Template</title>
+        <title>Register - Valilock</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Premium Bootstrap 4 Landing Page Template" />
         <meta name="keywords" content="bootstrap 4, premium, marketing, multipurpose" />
@@ -85,6 +85,32 @@
 
                                                 </div>
                                             </div>
+
+                                            <div class="col-md-12">
+                                                <div class="form-group position-relative">
+                                                    <input class="button" type="button" value="Valilock" onclick="alert('You clicked the button!')">
+                                                </div>
+                                            </div>
+
+                                            <style>
+                                                .button {
+                                                    box-shadow: none;
+                                                    border: 1px solid #dee2e6;
+                                                    height: 80px;
+                                                    font-size: 13px;
+                                                    border-radius: 10px;
+                                                    -webkit-transition: all 0.5s ease;
+                                                    transition: all 0.5s ease;
+                                                    display: block;
+                                                    width: 100%;
+                                                    padding: .375rem .75rem;
+                                                    font-size: 1rem;
+                                                    font-weight: 400;
+                                                    line-height: 1.5;
+                                                    color: #495057;
+                                                    background-color: #fff;
+                                                    background-clip: padding-box;
+                                            </style>
 
                                             <div class="col-md-12">
                                                 <div class="form-group position-relative">

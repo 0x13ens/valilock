@@ -8,6 +8,11 @@
                     <div class="container">
                         <div class="row align-items-center">
                             <div class="col-lg-7 col-md-7">
+                                <div class="alert alert-outline-primary alert-pills" role="alert">
+                                    <a href=""><span class="badge badge-success rounded"> New </span>
+                                    <span class="alert-content"> Learn more about new European requirements for Strong Customer Authentication
+                                    </span><i class="mdi mdi-chevron-right"></i></a>
+                                </div>
                                 <div class="title-heading mt-4">
                                     <h1 class="heading mb-3">Our Creativity Is Your <span class="text-primary">Success</span> </h1>
                                     <p class="para-desc text-muted">Valilock is the best software platform for managing your user’s authentication. We plan to disrupt the authentication industry by reimagining security.</p>
