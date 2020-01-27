@@ -4,7 +4,6 @@ return [
 
     // Enable/Disable Meter
     'enabled' => env('METER_ENABLED', true),
-
     #---------------------------------------------------------------------
 
     /*
@@ -13,7 +12,7 @@ return [
     * application.
     */
 
-    'domain' => env('METER_DOMAIN', true),
+    'domain' => env('METER_DOMAIN', null),
 
     #---------------------------------------------------------------------
 
