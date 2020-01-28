@@ -42,6 +42,7 @@
         <section class="section">
             <div class="container">
                 <div class="row">
+                    @foreach ($posts as $post)
                     <div class="col-lg-4 col-md-6 mb-4 pb-2">
                         <div class="blog position-relative overflow-hidden shadow rounded">
                             <div class="position-relative">
@@ -49,7 +50,7 @@
                                 <div class="overlay rounded-top bg-dark"></div>
                             </div>
                             <div class="content p-4">
-                                <h4><a href="javascript:void(0)" class="title text-dark">Design your apps in your own way</a></h4>
+                            <h4><a href="javascript:void(0)" class="title text-dark">{{ $post->title }}</a></h4>
                                 <div class="post-meta mt-3">
                                     <a href="javascript:void(0)" class="text-muted float-right readmore">Read More <i class="mdi mdi-chevron-right"></i></a>
                                     <ul class="list-unstyled mb-0">
@@ -64,7 +65,7 @@
                             </div>
                         </div>
                     </div><!--end col-->
-
+                    @endforeach
                     <div class="col-lg-4 col-md-6 mb-4 pb-2">
                         <div class="blog position-relative overflow-hidden shadow rounded">
                             <div class="position-relative">
