@@ -44,6 +44,17 @@
                 <div class="buy-button">
                     @if (Auth::check())
                     <a href="/profile" class="btn btn-primary">Profile</a>
+                    <div class="btn btn-primary">
+                        <a href="{{ route('logout') }}"
+                           onclick="event.preventDefault();
+                                         document.getElementById('logout-form').submit();">
+                            {{ __('Logout') }}
+                        </a>
+
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                            @csrf
+                        </form>
+                    </div>
                     @else
                     <a href="/register" class="btn btn-primary">Sign In</a>
                     @endif
@@ -230,6 +241,9 @@
         <!-- SLIDER -->
         <script src="{{ asset("js/owl.carousel.min.js") }}"></script>
         <script src="{{ asset("js/owl.init.js") }}"></script>
+        <!-- Typed -->
+        <script src="js/typed.js"></script>
+        <script src="js/typed.init.js"></script>
         <!-- Main Js -->
         <script src="{{ asset("js/app.js") }}"></script>
     </body>

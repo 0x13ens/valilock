@@ -53,6 +53,7 @@ class RegisterController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
+            'valilock' => ['required', 'string', 'max:255'],
         ]);
     }
 
@@ -68,17 +69,7 @@ class RegisterController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
+            'valilock' => $data['valilock'],
         ]);
-    }
-
-    protected function checkForTags( $data)
-    {
-        //We must take the password string and check dynamic tagging
-        //for instance if the password contains something dynamic we must
-        //remember this before hashing the password
-
-        //if we make hashes different lengths we can tell which tags
-        //are in use by the hash length
-        //on creation this could be randomized and remembered after
     }
 }

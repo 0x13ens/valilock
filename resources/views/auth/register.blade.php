@@ -88,32 +88,6 @@
 
                                             <div class="col-md-12">
                                                 <div class="form-group position-relative">
-                                                    <input class="button" type="button" value="Valilock" onclick="alert('You clicked the button!')">
-                                                </div>
-                                            </div>
-
-                                            <style>
-                                                .button {
-                                                    box-shadow: none;
-                                                    border: 1px solid #dee2e6;
-                                                    height: 80px;
-                                                    font-size: 13px;
-                                                    border-radius: 10px;
-                                                    -webkit-transition: all 0.5s ease;
-                                                    transition: all 0.5s ease;
-                                                    display: block;
-                                                    width: 100%;
-                                                    padding: .375rem .75rem;
-                                                    font-size: 1rem;
-                                                    font-weight: 400;
-                                                    line-height: 1.5;
-                                                    color: #495057;
-                                                    background-color: #fff;
-                                                    background-clip: padding-box;
-                                            </style>
-
-                                            <div class="col-md-12">
-                                                <div class="form-group position-relative">
                                                     <label for="password"> {{ __('Password') }} <span class="text-danger">*</span></label>
                                                     <i class="mdi mdi-key ml-3 icons"></i>
                                                     <input id="password" type="password" class="form-control pl-5 @error('password') is-invalid @enderror" name="password" placeholder="Password" required autocomplete="new-password">
@@ -123,6 +97,21 @@
                                                             <strong>{{ $message }}</strong>
                                                         </span>
                                                     @enderror
+
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-12">
+                                                <div class="form-group position-relative">
+                                                    <label for="valilock"> Valilock. <span class="text-danger">*</span></label>
+                                                    <i class="mdi mdi-account ml-3 icons"></i>
+                                                    <input id="valilock" type="valilock" class="form-control pl-5 @error('valilock') is-invalid @enderror" name="valilock" value="{{ old('valilock') }}" placeholder="Valilock." required autocomplete="valilock">
+
+                                                        @error('valilock')
+                                                            <span class="invalid-feedback" role="alert">
+                                                                <strong>{{ $message }}</strong>
+                                                            </span>
+                                                        @enderror
 
                                                 </div>
                                             </div>

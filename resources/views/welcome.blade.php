@@ -14,7 +14,7 @@
                                     </span><i class="mdi mdi-chevron-right"></i></a>
                                 </div>
                                 <div class="title-heading mt-4">
-                                    <h1 class="heading mb-3">Our Creativity Is Your <span class="text-primary">Success</span> </h1>
+                                    <h1 class="heading mb-3">Advanced Authentication <span class="element text-primary" data-elements="Dynamic, DjdkSl34d, DjdkSl35d, DjdkSl36d, DjdkSl36d"></span> Solution</h1>
                                     <p class="para-desc text-muted">Valilock is the best software platform for managing your user’s authentication. We plan to disrupt the authentication industry by reimagining security.</p>
                                     <div class="mt-4 pt-2">
                                         <a href="page-contact-one.html" class="btn btn-primary mt-2 mr-2"><i class="mdi mdi-email"></i> Get Started</a>
