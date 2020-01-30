@@ -29,6 +29,9 @@ Route::resource('support', 'SupportController');
 // Post Controller
 Route::resource('posts', 'PostController');
 
+// Code Feature for developing our password feature
+route::resource('code', 'CodeController');
+
 // Profile Pages
 Route::get('profile', 'ProfileController@show');
 
