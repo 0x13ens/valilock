@@ -12,9 +12,9 @@
                                     <h4 class="title"> Test </h4>
                                     <ul class="page-next d-inline-block bg-white shadow p-2 pl-4 pr-4 rounded mb-0">
                                         <li><a href="javascript:void(0)" class="text-uppercase font-weight-bold text-dark">Home</a></li>
-                                        <li><a href="javascript:void(0)" class="text-uppercase font-weight-bold text-dark">Docs</a></li>
+                                        <li><a href="javascript:void(0)" class="text-uppercase font-weight-bold text-dark">Test</a></li>
                                         <li>
-                                            <span class="text-uppercase text-primary font-weight-bold">Components</span>
+                                            <span class="text-uppercase text-primary font-weight-bold">Code</span>
                                         </li>
                                     </ul>
                                 </div>

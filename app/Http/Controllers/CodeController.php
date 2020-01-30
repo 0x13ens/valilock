@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Code;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 
 class CodeController extends Controller
 {
@@ -45,23 +46,16 @@ class CodeController extends Controller
             // store in the database
             $code = new Code;
 
-            if (strpos($code->password = $request->password, '{{Date:Hour}}') !== true)
+            // if the password contains the Tag then replace the password with Jeepers it worked ben
+            // then save to database else dump the code to the screen
+            if (Str::contains($code->password = $request->password, '{{Date:Hour}}'))
             {
-                $code->password = "Jeepers it worked Ben!";
+                // $code->password = "Jeepers it worked Ben!";
                 $code->save();
                 return redirect()->route('code.index');
             }
             $code->password = $request->password;
 
-           // if ($request->hasFile('featured_img')) {
-           //   $image = $request->file('featured_img');
-           //   $filename = time() . '.' . $image->getClientOriginalExtension();
-           //   $location = public_path('images/' . $filename);
-           //   Image::make($image)->resize(800, 400)->save($location);
-           //
-           //  $post->image = $filename;
-           // }
-           dd($code->password);
             $code->save();
             return redirect()->route('code.index');
         }
