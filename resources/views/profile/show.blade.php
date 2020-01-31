@@ -18,7 +18,7 @@
                                         <div class="col-lg-10 col-md-9">
                                             <div class="row align-items-center">
                                                 <div class="col-md-7 text-md-left text-center mt-4 mt-sm-0">
-                                                    <h3 class="title mb-0">Krista Joseph</h3>
+                                                <h3 class="title mb-0">{{ Auth::user()->name }}</h3>
                                                     <small class="text-muted h6 mr-2">Web Developer</small>
                                                     <ul class="list-inline mb-0 mt-3">
                                                         <li class="list-inline-item mr-2"><a href="javascript:void(0)" class="text-muted" title="Linkedin"><i class="mdi mdi-instagram mr-2"></i>krista_joseph</a></li>

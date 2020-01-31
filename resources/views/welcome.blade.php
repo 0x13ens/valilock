@@ -237,9 +237,9 @@
                                     </div>
 
                                     <ul class="feature list-unstyled pl-0">
-                                        <li class="feature-list"><i class="mdi mdi-check text-success h5 mr-1"></i>500 Request</li>
-                                        <li class="feature-list"><i class="mdi mdi-check text-success h5 mr-1"></i>Source Files</li>
-                                        <li class="feature-list"><i class="mdi mdi-check text-success h5 mr-1"></i>Free Appointments</li>
+                                        <li class="feature-list"><i class="mdi mdi-check text-success h5 mr-1"></i>5000 Requests</li>
+                                        <li class="feature-list"><i class="mdi mdi-check text-success h5 mr-1"></i>User Statistics</li>
+                                        <li class="feature-list"><i class="mdi mdi-check text-success h5 mr-1"></i>Secure Account</li>
                                         <li class="feature-list"><i class="mdi mdi-check text-success h5 mr-1"></i>Enhanced Security</li>
                                     </ul>
                                     <a href="/register" class="btn btn-primary mt-4">Get Started</a>

@@ -57,8 +57,9 @@
                                                     <tr>
                                                     <th scope="col">#</th>
                                                     <th scope="col">Orginal</th>
-                                                    <th scope="col">Updated</th>
-                                                    <th scope="col">New</th>
+                                                    <th scope="col">Start</th>
+                                                    <th scope="col">TAG</th>
+                                                    <th scope="col">End</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
@@ -66,8 +67,9 @@
                                                     <tr>
                                                     <th scope="row">{{ $code->id }}</th>
                                                     <td>{{ $code->password }}</td>
+                                                        <td>{{ $code->passwordstart }}</td>
                                                         <td>{{ $code->dynamic }}</td>
-                                                        <td>{{ $code->password2 }}</td>
+                                                        <td>{{ $code->passwordend }}</td>
                                                     </tr>
                                                     @endforeach
                                                 </tbody>

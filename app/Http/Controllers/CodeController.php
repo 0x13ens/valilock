@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Code;
 use Carbon\Carbon;
+use App\Dynamic;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Hash;
@@ -50,23 +51,31 @@ class CodeController extends Controller
 
             // if the password contains the Tag then replace the password
             // then save to database else dump the code to the screen
+
+            // the tag has to change depending on what the user inputs so in practice
+            // the {{ Date:Hour }} would tell us what the user has selected though the
+            // input
             if (Str::contains($code->password = $request->password, '{{Date:Hour}}'))
             {
                 //explode the password when tag hits
                 $password = explode('{{Date:Hour}}',$code->password, 3);
 
                 // hash the first and second password
-                $passwordfirst = Hash::make($password[0]);
-                $passwordlast = Hash::make($password[1]);
+                $passwordstart = Hash::make($password[0]);
+                $passwordend = Hash::make($password[1]);
 
                 // Save the password to the Database
 
-                $code->dynamic = $passwordfirst;
-                $code->password2 = $passwordlast;
+                // we encrypt the tag then dedecrypt on validation so concatenation would be passwordstart.dynamic.passwordend
+                $code->dynamic = encrypt("{{Date:Hour}}");
+                $code->passwordstart = $passwordstart;
+                $code->passwordend = $passwordend;
+
+
 
                 // for validation we need use concatenation however to include the dynamic center
                 // piece which gets checked against the tag and put though.
-                dd($password[0].$password[1]);
+                // dd($password[0].$password[1]);
                 // dd($password[0], $password[1], $password, $passwordfirst, $passwordlast);
                 $code->save();
                 return redirect()->route('code.index');
