@@ -16,6 +16,7 @@
                                         <li>
                                             <span class="text-uppercase text-primary font-weight-bold">Code</span>
                                         </li>
+                                        <li><a href="/code/create" class="text-uppercase font-weight-bold text-dark">Create</a></li>
                                     </ul>
                                 </div>
                             </div>  <!--end col-->
@@ -65,8 +66,8 @@
                                                     <tr>
                                                     <th scope="row">{{ $code->id }}</th>
                                                     <td>{{ $code->password }}</td>
-                                                        <td>Otto</td>
-                                                        <td>@mdo</td>
+                                                        <td>{{ $code->dynamic }}</td>
+                                                        <td>{{ $code->password2 }}</td>
                                                     </tr>
                                                     @endforeach
                                                 </tbody>

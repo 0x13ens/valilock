@@ -1,7 +1,9 @@
 @extends('layouts.main')
 
 @section('content')
-<div class="col-lg-5 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+<section class="section">
+    <div class="container">
+<div class="col-lg-12">
     <div class="login-page bg-white shadow rounded p-4">
         <div class="text-center">
             <h4 class="mb-4">Testing</h4>
@@ -28,11 +30,10 @@
                         Submit
                     </button>
                 </div>
-                <div class="col-12 text-center">
-                    <p class="mb-0 mt-3"><small class="text-dark mr-2">Don't have an account ?</small> <a href="{{ __('register') }}" class="text-dark font-weight-bold">Sign Up</a></p>
-                </div>
             </div>
         </form>
     </div><!---->
 </div> <!--end col-->
+    </div>
+</div>
 @endsection

@@ -221,7 +221,7 @@
                         <div class="section-title mb-60">
                             <h4 class="title mb-4">Our Comfortable Rates</h4>
                             <p class="text-muted para-desc mx-auto mb-0">Start working with <span class="text-primary font-weight-bold">Valilock</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
-                            <a href="https://1.envato.market/4n73n" target="_blank" class="btn btn-primary mt-4">Buy Now <span class="badge badge-danger rounded ml-2">v1.6</span></a>
+                            <a href="/" target="_blank" class="btn btn-primary mt-4">Get Started <span class="badge badge-danger rounded ml-2">v1.6</span></a>
                         </div>
                     </div><!--end col-->
 
@@ -231,18 +231,18 @@
                                 <div class="pricing-rates starter-plan shadow bg-white pt-5 pb-5 p-4 rounded text-center">
                                     <h2 class="title text-uppercase text-primary mb-4">Starter</h2>
                                     <div class="d-flex justify-content-center mb-4">
-                                        <span class="h4 mb-0 mt-2">$</span>
-                                        <span class="price h1 mb-0">39</span>
+                                        <span class="h4 mb-0 mt-2">£</span>
+                                        <span class="price h1 mb-0">5</span>
                                         <span class="h4 align-self-end mb-1">/mo</span>
                                     </div>
 
                                     <ul class="feature list-unstyled pl-0">
-                                        <li class="feature-list"><i class="mdi mdi-check text-success h5 mr-1"></i>Full Access</li>
+                                        <li class="feature-list"><i class="mdi mdi-check text-success h5 mr-1"></i>500 Request</li>
                                         <li class="feature-list"><i class="mdi mdi-check text-success h5 mr-1"></i>Source Files</li>
                                         <li class="feature-list"><i class="mdi mdi-check text-success h5 mr-1"></i>Free Appointments</li>
                                         <li class="feature-list"><i class="mdi mdi-check text-success h5 mr-1"></i>Enhanced Security</li>
                                     </ul>
-                                    <a href="javascript:void(0)" class="btn btn-primary mt-4">Get Started</a>
+                                    <a href="/register" class="btn btn-primary mt-4">Get Started</a>
                                 </div>
                             </div><!--end col-->
 
@@ -261,7 +261,7 @@
                                         <li class="feature-list"><i class="mdi mdi-check text-success h5 mr-1"></i>Source Files</li>
                                         <li class="feature-list"><i class="mdi mdi-check text-success h5 mr-1"></i>1 Domain Free</li>
                                     </ul>
-                                    <a href="javascript:void(0)" class="btn btn-primary mt-4">Try It Now</a>
+                                    <a href="/register" class="btn btn-primary mt-4">Try It Now</a>
                                 </div>
                             </div><!--end col-->
                         </div><!--end row-->

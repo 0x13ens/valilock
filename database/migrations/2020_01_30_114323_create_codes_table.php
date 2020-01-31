@@ -16,6 +16,8 @@ class CreateCodesTable extends Migration
         Schema::create('codes', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('password');
+            $table->string('dynamic')->nullable();
+            $table->string('password2')->nullable();
             $table->timestamps();
         });
     }

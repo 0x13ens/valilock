@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Code;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Hash;
 
 class CodeController extends Controller
 {
@@ -46,14 +48,32 @@ class CodeController extends Controller
             // store in the database
             $code = new Code;
 
-            // if the password contains the Tag then replace the password with Jeepers it worked ben
+            // if the password contains the Tag then replace the password
             // then save to database else dump the code to the screen
             if (Str::contains($code->password = $request->password, '{{Date:Hour}}'))
             {
-                // $code->password = "Jeepers it worked Ben!";
+                //explode the password when tag hits
+                $password = explode('{{Date:Hour}}',$code->password, 3);
+
+                // hash the first and second password
+                $passwordfirst = Hash::make($password[0]);
+                $passwordlast = Hash::make($password[1]);
+
+                // Save the password to the Database
+
+                $code->dynamic = $passwordfirst;
+                $code->password2 = $passwordlast;
+
+                // for validation we need use concatenation however to include the dynamic center
+                // piece which gets checked against the tag and put though.
+                dd($password[0].$password[1]);
+                // dd($password[0], $password[1], $password, $passwordfirst, $passwordlast);
                 $code->save();
                 return redirect()->route('code.index');
             }
+
+            // if password doesn't cotain proceed to save to database // could display error?
+
             $code->password = $request->password;
 
             $code->save();
